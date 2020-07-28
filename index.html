@@ -29,11 +29,11 @@
         
         <div id="bodyContainer">
          
-            <textarea id="htmlPanel" class="panel"><p>Your HTML code</p></textarea>
+            <textarea id="htmlPanel" class="panel"><p id="paragraph">Your HTML code</p></textarea>
             
             <textarea id="cssPanel" class="panel hidden">p { color: green; } </textarea>
             
-            <textarea id="javascriptPanel" placeholder="Your JavaScript code" class="panel hidden"></textarea>
+            <textarea id="javascriptPanel" class="panel hidden">document.getElementById("paragraph").innerHTML = "done";</textarea>
             
             <iframe id="outputPanel" class="panel"></iframe>
             
