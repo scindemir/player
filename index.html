@@ -1,209 +1,46 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./main.css">
-  <title>Air Asia</title>
-</head>
-<body>
-    <div class="wrapper">
-      <div class="container">
-        <header class="header">
-          <a href="#" class="logo">
-            <img src="./images/Air_Asia-logo.png" alt="Air Asia logo" class="logo__pic">
-          </a>
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-              <li class="menu__item menu__item--active"><a href="#" class="menu__link">Услуги</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-            </ul>
-          </nav>
-          <address class="contacts">
-            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-            <div class="contacts__dropdown-title">График работы</div>
-              
-          </address>
-        </header>
-        
-      
+<html>
 
-        <div class="page-content">
-              <div class="jumb">
-                <div class="jumb__image">
-                  <h1 class="jumb__image-title">Авторские туры по Азии</h1>
-                  <p class="jumb__image-text">Открой для себя Азию</p>
-                  <a href="#" class="btn">ПОДРОБНЕЕ</a>
-                </div>
-              </div>
-            </div>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>the code player</title>
 
-            <main class="main-content">
-            <div class="section">
-              <section class="section__tours">
-                <h2 class="section__title">Горящие туры &#128293;</h2>
-                <ul class="tours__content">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta name="codePlayer" content="An interactive code player">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
 
-                  <li class="tours__content-item">
-                    <div class="tours__content-header">
-                      <img src="./images/content/offers/river.jpg" alt="" class="tours__content-pic">
-                    </div>
-                    <div class="tours__wrapper">
-                      <div class="tours__content-title">Тайланд</div>
-                        <span class="tours__content-conditions">
-                          <div class="tours__content-nights">
-                            <span><img src="./images/icons/offers/calendar.png" alt="" class="tours__content-icon"></span>
-                            <span class="tours__content-nights1">7-12 ночей</span>
-                          </div>
-                          <div class="tours__content-breakfast">
-                            <span><img src="./images/icons/offers/meal.png" alt="" class="tours__content-icon"></span>
-                            <span class="tours__content-breakfast1">Завтраки</span>
-                          </div>
-                        </span>
-                        <p class="tours__content-description">
-                          Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.                    </p>
-                          <div class="tours__btn-wrapper">
-                          <a href="#" class="tours__btn">СМОТРЕТЬ</a>
-                          </div>
-                        </div>
-                    </li>
+     <div id="header">
 
-                    <li class="tours__content-item">
-                      <div class="tours__content-header">
-                        <img src="./images/content/offers/pool.jpg" alt="" class="tours__content-pic">
-                      </div>
-                      <div class="tours__wrapper">
-                        <div class="tours__content-title">Бали</div>
-                          <span class="tours__content-conditions">
-                            <div class="tours__content-nights">
-                              <span><img src="./images/icons/offers/calendar.png" alt="" class="tours__content-icon"></span>
-                              <span class="tours__content-nights1">7-12 ночей</span>
-                            </div>
-                            <div class="tours__content-breakfast">
-                              <span><img src="./images/icons/offers/meal.png" alt="" class="tours__content-icon"></span>
-                              <span class="tours__content-breakfast1">Завтраки</span>
-                            </div>
-                          </span>
-                          <p class="tours__content-description">
-                            Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.                      </p>
-                            <div class="tours__btn-wrapper">
-                            <a href="#" class="tours__btn tours__btn--active">СМОТРЕТЬ</a>
-                            </div>
-                        </div>
-                      </li>
+         <div id="logo">
+         CodePlayer
+         </div>
 
-                      <li class="tours__content-item">
-                        <div class="tours__content-header">
-                        <img src="./images/content/offers/ocean.jpg" alt="" class="tours__content-pic">
-                        </div>
-                        <div class="tours__wrapper">
-                          <div class="tours__content-title">Индонезия</div>
-                            <span class="tours__content-conditions">
-                              <div class="tours__content-nights">
-                                <span><img src="./images/icons/offers/calendar.png" alt="" class="tours__content-icon"></span>
-                                <span class="tours__content-nights1">7-12 ночей</span>
-                              </div>
-                              <div class="tours__content-breakfast">
-                                <span><img src="./images/icons/offers/meal.png" alt="" class="tours__content-icon"></span>
-                                <span class="tours__content-breakfast1">Завтраки</span>
-                              </div>
-                            </span>
-                            <p class="tours__content-description">
-                              Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.                        </p>
-                            <div class="tours__btn-wrapper">
-                              <a href="#" class="tours__btn">СМОТРЕТЬ</a>
-                            </div>
-                          </div>
-                        </li>
-                </ul>
-              </section>
-
-            
-              <section class="section__news">
-                <h2 class="section__title">Новости и акции</h2>
-                <ul class="news__cards">
-                  <li class="news-cards-item">
-                    <img src="./images/content/news/plain.jpg" alt="Airplane" class="news__cards-pic">
-                    <div class="news__text">
-                      <div class="news__cards-date">Декабрь 2019</div>
-                      <h4 class="news__cards-title">Дешёвые путевки на Новый Год!</h4>
-                      <p class="news__cards-text">Проведи Новый год в Тайланде</p>
-                    </div>
-                  </li>
-                  <li class="news-cards-item">
-                    <img src="./images/content/news/surfer.jpg" alt="Surfer" class="news__cards-pic">
-                    <div class="news__text">
-                      <div class="news__cards-date">Декабрь 2019</div>
-                      <h4 class="news__cards-title">Акция для серфенгистов!</h4>
-                      <p class="news__cards-text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
-                    </div>
-                  </li>
-                </ul>
-              </section>
-
-              <div class="paginator">
-                <div class="paginator__display">Страница 1 из 7</div>
-                <ul class="paginator__list">
-                  <li class="paginator__item paginator__item--active"><a href="#" class="paginator__link">1</a></li>
-                  <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
-                  <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
-                  <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
-                  <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
-                  <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
-                  <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
-                </ul>
-              </div>
-            
-            <section class="section__about">
-              <div class="about">
-                <div class="about__main">
-                  <h3 class="about__main-title">О нас</h3>
-                  <p class="about__main-text">
-                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
-                  </p>
-                  <a href="#" class="btn">ПОДРОБНЕЕ</a>
-                </div>
-              </div>
-            </section>
-          </div>
-        </main>
-        </div>
-        </div>
-
-      <div class="container">
-        <footer class="footer">
-            <div class="footer__frame">
-                <a href="#" class="footer__logo logo">
-                  <img src="./images/Air_Asia-logo.png" alt="" class="logo__pic">
-                </a>
-                <nav class="footer__menu">
-                  <ul class="menu__list">
-                    <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-                  </ul>
-                </nav>
-
-                <div class="footer__social">
-                  <ul>
-                  <li class="social__item social__item-telegram"><a href="#" class="social__link"></a></li>
-                  <li class="social__item social__item-vk"><a href="#" class="social__link"></a></li>
-                  <li class="social__item social__item-facebook"><a href="#" class="social__link"></a></li>
-                  <li class="social__item social__item-instagram"><a href="#" class="social__link"></a></li>
-                  </ul>
-                </div>
-
-                <address class="footer__contacts contacts">
-                  <div class="contacts__text footer__contacts-text">Бесплатный звонок по России</div>
-                  <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-                </address> 
-              </div>
-        </footer>
+         <div id="buttonContainer">
+            <div class="toggleButton active" id="html">HTML</div>
+             <div class="toggleButton" id="css">CSS</div>
+             <div class="toggleButton" id="javascript">JavaScript</div>
+             <div class="toggleButton active" id="output">Output</div>
+         </div>
       </div>
-    </div>
-    </div>
-  
 
-</body>
+
+        <div id="bodyContainer">
+
+            <textarea id="htmlPanel" class="panel"><p>Your HTML code</p></textarea>
+
+            <textarea id="cssPanel" class="panel hidden">p { color: green; } </textarea>
+
+            <textarea id="javascriptPanel" placeholder="Your JavaScript code" class="panel hidden"></textarea>
+
+            <iframe id="outputPanel" class="panel"></iframe>
+
+         </div>
+
+
+
+    <script src="./script.js"></script>    
+    </body>
 </html>
